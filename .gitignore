@@ -1,18 +1,31 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+/.vscode
+atlassian*
+/nbproject
+/robots.txt
+/pub/robots.txt
+/sitemap
+/sitemap.xml
+/.idea
+/.gitattributes
+app/config_sandbox
+app/etc/config.php
+app/etc/env.php
+app/code/Magento/TestModule*
+node_modules
+/.grunt
+/Gruntfile.js
+/.php_cs
+/.php_cs.cache
+/grunt-config.json
+lib
+pub
+var
+vendor
+generated
+.DS_Store
+auth.json
