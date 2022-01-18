@@ -1,2 +1,2 @@
-# scandy-pwa
-Magento with ScandyPWA
+# scandi-pwa
+Magento with ScandiPWA
