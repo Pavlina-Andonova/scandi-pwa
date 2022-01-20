@@ -25,7 +25,11 @@ node_modules
 lib
 pub
 var
+dev
 vendor
 generated
 .DS_Store
 auth.json
+
+# Excludes
+!/vendor/scandipwa/route717/
