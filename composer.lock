@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "445d949ad8ea936a6039dc647eef5c20",
+    "content-hash": "12c5c5c8fae9d05225f929786f303f29",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19916,6 +19916,40 @@
                 "source": "https://github.com/scandipwa/sales-graphql/tree/1.0.4"
             },
             "time": "2022-01-03T15:52:26+00:00"
+        },
+        {
+            "name": "scandipwa/sample-data",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/sample-data.git",
+                "reference": "adbb1f89788e68eb11f8f9c9537779734dccb08c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/sample-data/zipball/adbb1f89788e68eb11f8f9c9537779734dccb08c",
+                "reference": "adbb1f89788e68eb11f8f9c9537779734dccb08c",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento2-base": "^2.3.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\SampleData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Sample data for ScandiPWA",
+            "support": {
+                "email": "info@scandiweb.com",
+                "source": "https://github.com/scandipwa/sample-data/tree/1.1.7"
+            },
+            "time": "2021-09-29T15:25:43+00:00"
         },
         {
             "name": "scandipwa/scandipwa-app",
